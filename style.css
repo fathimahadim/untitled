@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+}
+.headrer-1{
+    width: 100%;
+    background-color: #53389E;
+    
+}
+.logo{
+    width:50px;
+    height:45px
+}
+nav{
+    background-color: #53389E;
+}
+.login{
+    color: #fff;
+    border: none;
+    background: #53389E;
+    font-size: 10px;
+    float: right;
+    width: 50px;
+    height: 25px;
+}
+.signup{
+    color: #fff;
+    border: none;
+    background: #7F56D9;
+    border-radius: 3px;
+    font-size: 10px;
+    width: 50px;
+    height: 25px;
+    float: right;
+   
+    
+}
+.demo{
+    color: #000000;
+    border: none;
+    background: #f6f5f7;
+    border-radius: 3px;
+    font-size: 10px;
+    width: 50px;
+    height: 25px;
+}
+ 
+main{
+    width: 100%;
+    height: 100vh;
+    background-image:url(image/Frame\ 3frane.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+
+.main1{
+    padding-top: 80px;
+    
+    
+}
+.section-1{
+    width: 100%;
+    height: 260px;
+    margin: 0px;
+    padding-top: 60px;
+     text-align: center;
+}
+.section-2{
+    width: 100%;
+    height: 400px;
+    margin: 15px;
+    background-color: rgb(250, 248, 246);
+    
+}
+.text{
+   padding-top: 100px;
+ 
+}
+.section-3{
+    width: 100%;
+    height: 400px;  
+    background-color: #53389E;
+}
+.give-us{
+    width: 500px;
+    height: 280px;
+    background-color:#53389E;
+    padding-left: 50px;
+    padding-top: 80px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+.photo{
+    width: 210px;
+    height: 280px;
+    background-color: #53389E; 
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+.sec-4{
+    width: 100%;
+    height: 700px;
+    padding-top: 100px;
+    padding-left: 100px;
+    margin-bottom:x ;
+    
+}
+section-4 div container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    justify-content: space-around;
+    
+}
+#more {display: none;}
+#myBtn{
+    border: none;
+    background-color: #fff;
+    color: #53389E;
+}
+.l1,.l2,.l3{
+    padding-bottom: 30px;
+}
+.sec-5{
+   width: 100%;
+   height: 800px;
+   padding-top: 96px;
+   background-color: rgba(255, 255, 255, 0.354);
+}
+.love{
+    width: 500px;
+    height: 340px;
+    background-color:#53389E;
+    padding-left: 50px;
+    padding-top: 60px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    transform: translate(3%,0);
+  
+}
+.footer{
+    background: #152F4F;
+    color:white;
+    
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+
+
+@media only screen and (max-width:600){
+    form{
+        width:100% !important
+    }
+}
